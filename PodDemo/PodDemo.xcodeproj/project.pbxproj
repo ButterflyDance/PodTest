@@ -54,6 +54,7 @@
 		A703EDE21FCBB25600330705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A703EDEE1FCBB27100330705 /* FJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJObject.h; sourceTree = "<group>"; };
 		A703EDEF1FCBB27100330705 /* FJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJObject.m; sourceTree = "<group>"; };
+		A71446A41FCBE2E500B85D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 				A703EDD41FCBB25600330705 /* PodDemoTests */,
 				A703EDDF1FCBB25600330705 /* PodDemoUITests */,
 				A703EDBA1FCBB25600330705 /* Products */,
+				A71446A31FCBE2E400B85D9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +137,14 @@
 				A703EDE21FCBB25600330705 /* Info.plist */,
 			);
 			path = PodDemoUITests;
+			sourceTree = "<group>";
+		};
+		A71446A31FCBE2E400B85D9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A71446A41FCBE2E500B85D9C /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95588D7J2P;
 				INFOPLIST_FILE = PodDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.PodDemo;
@@ -450,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95588D7J2P;
 				INFOPLIST_FILE = PodDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ddd.PodDemo;
