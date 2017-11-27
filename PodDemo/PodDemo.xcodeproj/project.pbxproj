@@ -55,6 +55,8 @@
 		A703EDEE1FCBB27100330705 /* FJObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FJObject.h; sourceTree = "<group>"; };
 		A703EDEF1FCBB27100330705 /* FJObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJObject.m; sourceTree = "<group>"; };
 		A71446A41FCBE2E500B85D9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A71446A51FCBE34300B85D9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A71446A61FCBE34A00B85D9C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,8 @@
 		A71446A31FCBE2E400B85D9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A71446A61FCBE34A00B85D9C /* XCTest.framework */,
+				A71446A51FCBE34300B85D9C /* Foundation.framework */,
 				A71446A41FCBE2E500B85D9C /* UIKit.framework */,
 			);
 			name = Frameworks;
